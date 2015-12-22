@@ -1,0 +1,11 @@
+alias ll='ls -FGlahs'
+alias ls='ls -G'
+alias ip='dig +short myip.opendns.com @resolver1.opendns.com '
+alias lip="ipconfig getifaddr en0"
+alias key="cat ~/.ssh/id_rsa.pub | pbcopy; echo 'SSH key copied to clipboard!'"
+alias reload="source ~/.bash_profile"
+alias mysql-start="mysql.server start"
+alias mysql-stop="mysql.server stop"
+alias mysql-restart="mysql.server restart"
+alias postgres="postgres -D /usr/local/var/postgres"
+alias redis="redis-server /usr/local/etc/redis.conf"
