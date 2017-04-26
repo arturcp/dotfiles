@@ -9,3 +9,5 @@ alias mysql-stop="mysql.server stop"
 alias mysql-restart="mysql.server restart"
 alias postgres="postgres -D /usr/local/var/postgres"
 alias redis="redis-server /usr/local/etc/redis.conf"
+alias rabbit='brew services start rabbitmq'
+alias kill-ruby="ps aux | pgrep -lf 'spring|rails|ruby|puma|sneakers' | awk '{print $1}' | xargs kill -9"
