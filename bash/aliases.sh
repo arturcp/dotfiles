@@ -22,3 +22,6 @@ alias jmeter="/usr/local/bin/jmeter"
 alias memcache="/usr/local/opt/memcached/bin/memcached"
 alias jupyter="jupyter notebook"
 alias python-server="python -m http.server 8000"
+alias folder-size="du -hs ."
+alias hd-size="df -h"
+
