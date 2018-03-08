@@ -60,3 +60,7 @@ function tab-orange() { tab-color fbbc79; }
 function tab-white() { tab-color fff; }
 function tab-gray() { tab-color c3c3c3c; }
 function tab-reset() { echo -ne "\033]6;1;bg;*;default\a"; }
+
+function clear_rabbitmq_queues {
+  rabbitmqadmin -f tsv -q list queues name | while read queue; do rabbitmqadmin -q delete queue name=${queue}; done
+}
