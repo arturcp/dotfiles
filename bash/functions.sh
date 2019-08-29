@@ -23,6 +23,7 @@ function extract() {
   fi
 }
 
+
 # Change the color of the tabs
 function tab-color() {
   if [[ $# == 1 ]]
